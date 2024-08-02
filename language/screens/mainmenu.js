@@ -3,22 +3,16 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'rea
 
 const CategoriesScreen = ({ navigation }) => {
   const handleCategoryPress = (category) => {
-    navigation.navigate('Courses', { category });
+    navigation.navigate('Quiz', { category });
   };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.headerText}>中文测验</Text>
 
-      <TouchableOpacity style={styles.categoryButton} onPress={() => handleCategoryPress('Técnicos')}>
-        <Image source={require('../assets/favicon.png')} style={styles.categoryImage} />
+      <TouchableOpacity style={styles.categoryButton} onPress={() => handleCategoryPress('Greetings')}>
+        <Image source={require('../assets/hi.png')} style={styles.categoryImage} />
       </TouchableOpacity>
-
-
-      <TouchableOpacity style={styles.categoryButton} onPress={() => handleCategoryPress('Técnicos')}>
-        <Image source={require('../assets/favicon.png')} style={styles.categoryImage} />
-      </TouchableOpacity>
-
 
       <Text style={styles.footerText}>© 2023 工业学徒服务</Text>
       </ScrollView>
@@ -46,14 +40,14 @@ const styles = StyleSheet.create({
   },
   categoryButton: {
     backgroundColor: '#f5deb3',
-    padding: 55,
+    padding: 45,
     borderRadius: 150,
     margin: 50,
   },
   categoryImage: {
-    width: 100,
-    height: 100,
-    resizeMode: 'contain', // Adjust the image size and content mode as needed
+    width: 80,
+    height: 80,
+    resizeMode: 'cover', // Adjust the image size and content mode as needed
   },
   categoryButtonText: {
     color: '#800000',

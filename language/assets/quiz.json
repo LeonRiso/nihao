@@ -1,0 +1,12 @@
+[
+    {
+      "question": "What is the Mandarin word for 'hello'?",
+      "options": ["你好", "谢谢", "再见", "请"],
+      "answer": "你好"
+    },
+    {
+      "question": "How do you say 'thank you' in Mandarin?",
+      "options": ["谢谢", "你好", "对不起", "请"],
+      "answer": "谢谢"
+    }
+  ]
