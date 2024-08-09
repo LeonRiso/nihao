@@ -1,12 +1,35 @@
-[
+{
+  "description": "In this quiz, you will learn and review common Chinese greetings such as 'nǐ hǎo' (你好), 'zǎo shàng hǎo' (早上好), and 'xià wǔ hǎo' (下午好).",
+  "questions": [
     {
-      "question": "What is the Mandarin word for 'hello'?",
-      "options": ["你好", "谢谢", "再见", "请"],
-      "answer": "你好"
+      "question": "What does 'nǐ hǎo' (你好) mean?",
+      "options": ["Hello", "Goodbye", "Thank you", "Good night"],
+      "answer": "Hello",
+      "explanation": "'Nǐ hǎo' (你好) is the most common greeting in Chinese, meaning 'Hello'."
     },
     {
-      "question": "How do you say 'thank you' in Mandarin?",
-      "options": ["谢谢", "你好", "对不起", "请"],
-      "answer": "谢谢"
+      "question": "How do you greet someone in the morning in Chinese?",
+      "options": ["Zǎo shàng hǎo (早上好)", "Wǎn ān (晚安)", "Nǐ hǎo (你好)", "Xièxiè (谢谢)"],
+      "answer": "Zǎo shàng hǎo (早上好)",
+      "explanation": "'Zǎo shàng hǎo' (早上好) is used to greet someone in the morning and means 'Good morning'."
+    },
+    {
+      "question": "Which of the following is used to say 'Good afternoon' in Chinese?",
+      "options": ["Xià wǔ hǎo (下午好)", "Wǎn shàng hǎo (晚上好)", "Zǎo shàng hǎo (早上好)", "Nǐ hǎo (你好)"],
+      "answer": "Xià wǔ hǎo (下午好)",
+      "explanation": "'Xià wǔ hǎo' (下午好) means 'Good afternoon' and is used to greet someone in the afternoon."
+    },
+    {
+      "question": "If someone says 'Zǎo shàng hǎo' (早上好) to you, what time of day is it?",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "answer": "Morning",
+      "explanation": "'Zǎo shàng hǎo' (早上好) is a greeting used in the morning."
+    },
+    {
+      "question": "What greeting would you use in the evening?",
+      "options": ["Wǎn shàng hǎo (晚上好)", "Xià wǔ hǎo (下午好)", "Zǎo shàng hǎo (早上好)", "Nǐ hǎo (你好)"],
+      "answer": "Wǎn shàng hǎo (晚上好)",
+      "explanation": "'Wǎn shàng hǎo' (晚上好) is the greeting used in the evening, meaning 'Good evening'."
     }
   ]
+}

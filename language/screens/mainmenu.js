@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView,ImageBackground } from 'react-native';
 
 const CategoriesScreen = ({ navigation }) => {
   const handleCategoryPress = (category) => {
@@ -7,6 +7,10 @@ const CategoriesScreen = ({ navigation }) => {
   };
 
   return (
+    <ImageBackground 
+    source={require('../assets/background.png')} // Replace with your background image
+    style={styles.background}
+  >
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.headerText}>中文测验</Text>
 
@@ -16,19 +20,25 @@ const CategoriesScreen = ({ navigation }) => {
 
       <Text style={styles.footerText}>© 2023 工业学徒服务</Text>
       </ScrollView>
+      </ImageBackground>
+
   );
 };
 
 const styles = StyleSheet.create({
+  background: {
+    flex: 1,
+    resizeMode: 'contain', // Adjust the image size and content mode as needed
+  },
+
   container: {
-    flexGrow: 1,
+    flex: 1,  
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f9e9d6',
     paddingVertical: 20,
   },
   headerText: {
-    color: '#800000',
+    color: '#000000',
     fontSize: 36,
     fontWeight: 'bold',
     marginBottom: 20,
@@ -59,12 +69,11 @@ const styles = StyleSheet.create({
     textShadowRadius: 3,
   },
   footerText: {
-    position: 'absolute',
     bottom: 20,
-    color: '#800000',
+    color: '#000000',
     fontSize: 16,
     textAlign: 'center',
-    textShadowColor: '#fff',
+    textShadowColor: '#ffff',
     textShadowOffset: {width: 1, height: 1},
     textShadowRadius: 3,
   },
